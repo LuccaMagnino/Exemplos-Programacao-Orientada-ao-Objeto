@@ -1,0 +1,62 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Estudantes: 
+Jair Eugênio Ferreira - 202401791
+João Vitor Sousa de Oliveira - 202401794
+Lucas Almeida Oliveira Isaac - 202401802
+Lucca Magnino - 202401805</help_text><element><id>UMLClass</id><coordinates><x>390</x><y>10</y><w>190</w><h>110</h></coordinates><panel_attributes>&lt;&lt;Abstract Class&gt;&gt;
+Pizza::PizzaFactory
+--
+--
+~criarPizzaVeg(): PizzaVeg
+~criarPizza(): Pizza
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>160</y><w>220</w><h>90</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+Pizza::Pizza
+--
+--
+~servir(PizzaVeg pizzaVeg): void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>690</x><y>30</y><w>190</w><h>90</h></coordinates><panel_attributes>Pizza::PizzaBrasileira
+--
+--
++criarPizzaVeg(): PizzaVeg
++criarPizza(): Pizza
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>20</y><w>190</w><h>90</h></coordinates><panel_attributes>Pizza::PizzaItaliana
+--
+--
++criarPizzaVeg(): PizzaVeg
++criarPizza(): Pizza
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>370</x><y>460</y><w>180</w><h>90</h></coordinates><panel_attributes>Pizza::Pizzaria
+--
+--
++fazerPizzas(): void
++main(String[] args): void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>130</x><y>150</y><w>120</w><h>90</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+Pizza::PizzaVeg
+--
+--
+~preparar(): void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>740</x><y>310</y><w>220</w><h>70</h></coordinates><panel_attributes>Pizza::PizzaBolonha
+--
+--
++servir(PizzaVeg pizzaVeg): void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>470</y><w>140</w><h>70</h></coordinates><panel_attributes>Pizza::PizzaBrocolli
+--
+--
++preparar(): void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>470</x><y>310</y><w>220</w><h>70</h></coordinates><panel_attributes>Pizza::PizzaCamarao
+--
+--
++servir(PizzaVeg pizzaVeg): void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>180</x><y>470</y><w>160</w><h>70</h></coordinates><panel_attributes>Pizza::PizzaMandioca
+--
+--
++preparar(): void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>110</y><w>290</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>270;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>110</y><w>210</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;190;50</additional_attributes></element><element><id>Relation</id><coordinates><x>40</x><y>230</y><w>140</w><h>260</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>120;10;10;240</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>240</y><w>150</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>130;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>240</y><w>130</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;110;70</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>230</y><w>80</w><h>260</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;60;240</additional_attributes></element><element><id>Relation</id><coordinates><x>220</x><y>230</y><w>200</w><h>250</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;60;110;180;230</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>60</y><w>180</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>160;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>60</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;120;10</additional_attributes></element></diagram>

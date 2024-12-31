@@ -1,0 +1,29 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>10</x><y>0</y><w>370</w><h>180</h></coordinates><panel_attributes>Votacao::Candidato
+--
+~nome: String
+~numero: int
+~qtde: int
+~partido: String
+--
+~Candidato(String nome, int numero, String partido): ctor
++soma(): void
++achouCandidato(String nome): boolean
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>230</y><w>350</w><h>160</h></coordinates><panel_attributes>Votacao::ContaCargos
+--
+~arquivo: java.lang.String
+~cargo: java.lang.String
+~candidatos: java.util.ArrayList
+--
+~ContaCargos(java.lang.String, java.lang.String): ctor
++run(): void
++main(java.lang.String[]): void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>30</y><w>280</w><h>150</h></coordinates><panel_attributes>Threads
+--
+
+--
+
++start(): void
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>170</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>170</y><w>230</w><h>170</h></coordinates><panel_attributes>lt=&lt;.</panel_attributes><additional_attributes>10;10;210;150</additional_attributes></element></diagram>
